@@ -19,7 +19,7 @@ p {
 }
 
 .pp {
-  
+
     margin-bottom: 12px;
 }
 
@@ -58,6 +58,14 @@ button {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    transition: .2s ease-in-out;
+}
+
+button:hover {
+    transition: .2s ease-in-out;
+    background-color: hsl(75, 94%, 57%);
+    
+
 }
 
 a {
@@ -66,4 +74,9 @@ a {
     width: 100%;
     font-weight: 600;
 
+}
+
+a:hover {
+    color: black;
+    padding: 5px;
 }
